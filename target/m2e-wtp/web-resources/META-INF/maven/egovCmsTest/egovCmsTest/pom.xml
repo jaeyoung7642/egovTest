@@ -126,6 +126,17 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.33</version>
         </dependency>
+        <dependency>
+            <groupId>com.googlecode.log4jdbc</groupId>
+            <artifactId>log4jdbc</artifactId>
+            <version>1.2</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-api</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
         <!-- fileupload -->
         <dependency>
             <groupId>commons-fileupload</groupId>
@@ -137,6 +148,12 @@
                     <groupId>commons-io</groupId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <!-- 요소기술 달력을 위한 라이브러리 -->
+        <dependency>
+            <groupId>com.ibm.icu</groupId>
+            <artifactId>icu4j</artifactId>
+            <version>53.1</version>
         </dependency>
         
         <!-- mysql이나 oracle DB 사용시 아래 설정 추가  

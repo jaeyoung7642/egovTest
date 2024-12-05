@@ -26,19 +26,18 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>eGovFrame</title>
-<link rel="stylesheet" href="/egovframework-all-in-one/css/common.css">
-<link rel="stylesheet preload" as="style" crossorigin href="/egovframework-all-in-one/css/font.css" />
-<link rel="stylesheet" href="/egovframework-all-in-one/css/egovframework/com/cmm/swiper-bundle.css">
-<link type="text/css" rel="stylesheet" href="/egovframework-all-in-one/css/jqueryui.css">
-<script src="<c:url value='/js/egovframework/com/cmm/jquery.js' />"></script>
-<script src="<c:url value='/js/egovframework/com/cmm/jqueryui.js' />"></script>
-<script src="<c:url value='/js/egovframework/com/cmm/swiper-bundle.min.js' />"></script>
-<script src="<c:url value='/js/egovframework/com/cmm/jquery.kinetic.min.js' />"></script>
-<script src="<c:url value='/js/egovframework/com/cmm/common.js' />"></script>
-<script src="<c:url value='/js/egovframework/com/cmm/lenis.min.js' />"></script>
+<link rel="stylesheet" href="<c:url value='/css/common.css'/>">
+<link rel="stylesheet preload" as="style" crossorigin href="<c:url value='/css/font.css'/>" />
+<link rel="stylesheet" href="<c:url value='css/swiper-bundle.css'/>">
+<link type="text/css" rel="stylesheet" href="<c:url value='css/jqueryui.css'/>">
+<script src="<c:url value='/js/jquery.js' />"></script>
+<script src="<c:url value='/js/jqueryui.js' />"></script>
+<script src="<c:url value='/js/swiper-bundle.min.js' />"></script>
+<script src="<c:url value='/js/jquery.kinetic.min.js' />"></script>
+<script src="<c:url value='/js/common.js' />"></script>
+<script src="<c:url value='/js/lenis.min.js' />"></script>
 </head>
-<body>
-<h1>dddd</h1>
+<body> 
 	<header id="header" class="ly_header preload">
 	<div class="header_inner ly_inner">
 
@@ -104,6 +103,7 @@
 						<a href="NAVERPOST" target="_blank" rel="noreferrer" aria-label="네이버포스트(새창열림)" class="el_btn ccl na siteLink">
 							<img src="/resources/common/images/common/sns_post.svg" alt="">
 						</a>
+						<a href="<c:url value='/egovadmin/index.do' />"><strong class="top_title_strong">관리자페이지</strong></a>
 					</div>
 					<!-- //sns -->
 				</div>
