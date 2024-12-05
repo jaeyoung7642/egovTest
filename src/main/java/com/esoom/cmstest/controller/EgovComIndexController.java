@@ -68,7 +68,6 @@ public class EgovComIndexController implements ApplicationContextAware, Initiali
 
 	@RequestMapping("/index.do")
 	public String index(ModelMap model) throws Exception {
-		System.out.println("@@@@@@@@@@@@@@@@@@@");
 		List<?> list_menulist = menuManageService.selectMenuList();
 		System.out.println(list_menulist.size());
 		for(Object m : list_menulist) {
